@@ -1,0 +1,6 @@
+{
+    "name": "ldo",
+    "targetName": "ldo",
+    "targetType": "staticLibrary",
+    "targetPath": "lib"
+}

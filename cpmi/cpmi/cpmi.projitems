@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{A61A980B-C0B5-407F-85C0-745C98BDBAD7}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>cpmi</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyCPMI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)check\manpool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)check\interpool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)check\risk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)check\riskEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)check\event\mapping.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)check\" />
+    <Folder Include="$(MSBuildThisFileDirectory)check\settings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)check\event\" />
+    <Folder Include="$(MSBuildThisFileDirectory)check\map\" />
+    <Folder Include="$(MSBuildThisFileDirectory)check\files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)check\settings\config.config" />
+    <None Include="$(MSBuildThisFileDirectory)check\map\current.xml" />
+    <None Include="$(MSBuildThisFileDirectory)check\files\mapping.ts" />
+  </ItemGroup>
+</Project>

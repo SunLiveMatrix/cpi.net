@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="cpmi/check/files/mapping.ts">
+    <Files>
+      <File FileName="cpmi/MyCPMI.cs" Line="107" Column="1" />
+      <File FileName="cpmi/check/manpool.cs" Line="13" Column="6" />
+      <File FileName="cpmi/check/interpool.cs" Line="15" Column="1" />
+      <File FileName="cpmi/check/risk.cs" Line="8" Column="2" />
+      <File FileName="cpmi/check/riskEvent.cs" Line="6" Column="71" />
+      <File FileName="cpmi/check/settings/config.config" Line="3" Column="25" />
+      <File FileName="cpmi/check/event/mapping.cs" Line="8" Column="76" />
+      <File FileName="cpmi/check/map/current.xml" Line="2" Column="1" />
+      <File FileName="cpmi/check/files/mapping.ts" Line="797" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cpmi" expanded="True">
+            <Node name="cpmi" expanded="True">
+              <Node name="check" expanded="True">
+                <Node name="event" expanded="True" />
+                <Node name="files" expanded="True" />
+                <Node name="map" expanded="True" />
+                <Node name="settings" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.cpmi FirstBuild="True" />
+</Properties>

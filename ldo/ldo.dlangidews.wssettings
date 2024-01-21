@@ -1,0 +1,43 @@
+{
+    "startupProject": "ldo",
+    "breakpoints": [
+        {
+            "id": 1,
+            "file": "version.d",
+            "line": 34,
+            "enabled": true,
+            "projectName": "ldo",
+            "projectFilePath": "source/sourcefile/specials/tokens/version.d"
+        }
+    ],
+    "bookmarks": [
+    ],
+    "files": [
+        {
+            "file": "/home/admin/cpi.net/ldo/source/sourcefile/byteordermark/moduleopt.d",
+            "column": 164,
+            "row": 14
+        },
+        {
+            "file": "/home/admin/cpi.net/ldo/source/sourcefile/sufixed/comment.d",
+            "column": 22,
+            "row": 0
+        },
+        {
+            "file": "/home/admin/cpi.net/ldo/source/sourcefile/specials/tokens/version.d",
+            "column": 43,
+            "row": 0
+        }
+    ],
+    "expandedItems": [
+        "/home/admin/cpi.net/ldo/source/sourcefile/integer",
+        "/home/admin/cpi.net/ldo/source/sourcefile",
+        "/home/admin/cpi.net/ldo/source",
+        "/home/admin/cpi.net/ldo/source/sourcefile/specials",
+        "/home/admin/cpi.net/ldo/source/sourcefile/byteordermark",
+        "/home/admin/cpi.net/ldo/source/sourcefile/sufixed",
+        "/home/admin/cpi.net/ldo/dub.json",
+        "/home/admin/cpi.net/ldo/source/sourcefile/specials/tokens"
+    ],
+    "selectedWorkspaceItem": "/home/admin/cpi.net/ldo/source/sourcefile/specials/tokens/version.d"
+}

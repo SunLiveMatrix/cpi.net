@@ -1,0 +1,9 @@
+{
+    "name": "ldo",
+    "description": null,
+    "projects": {
+        "ldo": "dub.json"
+    },
+    "includePath": {
+    }
+}

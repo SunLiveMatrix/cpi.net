@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{7AD56A74-3300-4E4B-9B00-10F653D1DB2E}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="pln/ProjectElement/AllParents/IEnumerable/ProjectElementContainer.cs" Line="22" Column="2" />
+      <File FileName="pln/ProjectElement/Condition/String.cs" Line="22" Column="9" />
+      <File FileName="pln/ProjectElement/ConditionLocation/ElementLocation/Location.cs" Line="19" Column="2" />
+      <File FileName="pln/ProjectElement/ContainingProject/ProjectRootElement/Location.cs" Line="18" Column="6" />
+      <File FileName="pln/ProjectElement/Label/String.cs" Line="3" Column="1" />
+      <File FileName="pln/ProjectElement/LabelLocation/ElementLocation.cs" Line="17" Column="9" />
+      <File FileName="pln/ProjectElement/Location/ElementLocation.cs" Line="16" Column="9" />
+      <File FileName="pln/ProjectElement/NextSibling/ProjectElement.cs" Line="26" Column="1" />
+      <File FileName="pln/ProjectElement/Parent/ProjectElementContainer.cs" Line="12" Column="27" />
+      <File FileName="pln/ProjectElement/PreviousSibling/ProjectElement.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pln" expanded="True">
+            <Node name="pln" expanded="True">
+              <Node name="Packages" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.pln FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

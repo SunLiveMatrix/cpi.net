@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7AD56A74-3300-4E4B-9B00-10F653D1DB2E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>pln</RootNamespace>
+    <AssemblyName>pln</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.Web.Infrastructure" />
+    <Reference Include="System" />
+    <Reference Include="System.Dynamic" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="WebMatrix.Data" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PLN.Infra.ParReader">
+      <HintPath>..\packages\PLN.Infra.ParReader.0.2.16502.39826\lib\net40\PLN.Infra.ParReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ElementLocation\" />
+    <Folder Include="ElementLocation\Column\" />
+    <Folder Include="ElementLocation\Equals\" />
+    <Folder Include="ElementLocation\Equals\Object\" />
+    <Folder Include="ElementLocation\File\" />
+    <Folder Include="ElementLocation\GetHashCode\" />
+    <Folder Include="ElementLocation\Line\" />
+    <Folder Include="ElementLocation\LocationString\" />
+    <Folder Include="ElementLocation\ToString\" />
+    <Folder Include="ElementLocation\ToString\String\" />
+    <Folder Include="ProjectChooseElement\" />
+    <Folder Include="ProjectChooseElement\Condition\" />
+    <Folder Include="ProjectChooseElement\ConditionLocation\" />
+    <Folder Include="ProjectChooseElement\ConditionLocation\ElementLocation\" />
+    <Folder Include="ProjectChooseElement\OtherwiseElement\" />
+    <Folder Include="ProjectChooseElement\OtherwiseElement\ProjectOtherwiseElement\" />
+    <Folder Include="ProjectChooseElement\WhenElements\" />
+    <Folder Include="ProjectChooseElement\OtherwiseElement\ICollection\" />
+    <Folder Include="ProjectElement\" />
+    <Folder Include="ProjectElement\AllParents\" />
+    <Folder Include="ProjectElement\AllParents\IEnumerable\" />
+    <Folder Include="ProjectElement\Condition\" />
+    <Folder Include="ProjectElement\ConditionLocation\" />
+    <Folder Include="ProjectElement\ConditionLocation\ElementLocation\" />
+    <Folder Include="ProjectElement\ContainingProject\" />
+    <Folder Include="ProjectElement\ContainingProject\ProjectRootElement\" />
+    <Folder Include="ProjectElement\Label\" />
+    <Folder Include="ProjectElement\LabelLocation\" />
+    <Folder Include="ProjectElement\Location\" />
+    <Folder Include="ProjectElement\NextSibling\" />
+    <Folder Include="ProjectElement\Parent\" />
+    <Folder Include="ProjectElement\PreviousSibling\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ElementLocation\Address.cs" />
+    <Compile Include="ElementLocation\Column\Security.cs" />
+    <Compile Include="ElementLocation\Equals\Object\VectorToken.cs" />
+    <Compile Include="ElementLocation\File\String.cs" />
+    <Compile Include="ElementLocation\GetHashCode\Angles.cs" />
+    <Compile Include="ElementLocation\Line\Text.cs" />
+    <Compile Include="ElementLocation\LocationString\Local.cs" />
+    <Compile Include="ElementLocation\ToString\String\Event.cs" />
+    <Compile Include="ProjectChooseElement\Condition\String.cs" />
+    <Compile Include="ProjectChooseElement\ConditionLocation\ElementLocation\Topics.cs" />
+    <Compile Include="ProjectChooseElement\OtherwiseElement\ProjectOtherwiseElement\EventArgs.cs" />
+    <Compile Include="ProjectChooseElement\OtherwiseElement\ICollection\ProjectWhenElement.cs" />
+    <Compile Include="ProjectElement\AllParents\IEnumerable\ProjectElementContainer.cs" />
+    <Compile Include="ProjectElement\Condition\String.cs" />
+    <Compile Include="ProjectElement\ConditionLocation\ElementLocation\Location.cs" />
+    <Compile Include="ProjectElement\ContainingProject\ProjectRootElement\Location.cs" />
+    <Compile Include="ProjectElement\Label\String.cs" />
+    <Compile Include="ProjectElement\LabelLocation\ElementLocation.cs" />
+    <Compile Include="ProjectElement\Location\ElementLocation.cs" />
+    <Compile Include="ProjectElement\NextSibling\ProjectElement.cs" />
+    <Compile Include="ProjectElement\Parent\ProjectElementContainer.cs" />
+    <Compile Include="ProjectElement\PreviousSibling\ProjectElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
